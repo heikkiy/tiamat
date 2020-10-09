@@ -97,10 +97,10 @@
 
         <!-- NB: Concious choice of using snapshot version. This is to keep in
             sync, and fail fast if incompatibilities -->
-        <netex-java-model.version>1.0.9-SNAPSHOT</netex-java-model.version>
-        <hazelcast-helper.version>0.0.4-SNAPSHOT</hazelcast-helper.version>
-        <rutebanken-gcp-storage.version>0.0.4-SNAPSHOT</rutebanken-gcp-storage.version>
-        <rutebanken-organisation.version>0.0.4-SNAPSHOT</rutebanken-organisation.version>
+        <netex-java-model.version>1.0.9</netex-java-model.version>
+        <hazelcast-helper.version>1.0.27-SNAPSHOT</hazelcast-helper.version>
+        <rutebanken-gcp-storage.version>1.0.27-SNAPSHOT</rutebanken-gcp-storage.version>
+        <rutebanken-organisation.version>1.0.27-SNAPSHOT</rutebanken-organisation.version>
         <metrics.version>3.2.3</metrics.version>
     </properties>
 
@@ -114,9 +114,9 @@
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
         <repository>
-            <id>repo.boundlessgeo.com-releases</id>
-            <name>repo.boundlessgeo.com-releases</name>
-            <url>http://repo.boundlessgeo.com/main</url>
+            <id>osgeo</id>
+            <name>OSGeo Release Repository</name>
+            <url>https://repo.osgeo.org/repository/release/</url>
             <layout>default</layout>
         </repository>
     </repositories>
@@ -436,7 +436,7 @@
                 https://github.com/jboss/xerces/pull/14
                 https://issues.apache.org/jira/browse/XERCESJ-1276
             -->
-            <version>2.12.0.SP03-RB</version>
+            <version>2.12.0</version>
         </dependency>
 
 
